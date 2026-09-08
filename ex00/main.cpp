@@ -6,7 +6,7 @@
 /*   By: marudlof <marudlof@42.angouleme.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/03 14:45:08 by marudlof          #+#    #+#             */
-/*   Updated: 2026/08/03 14:45:09 by marudlof         ###   ########.fr       */
+/*   Updated: 2026/09/08 15:42:17 by marudlof         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@ int main(void)
 	Fixed c;
 
 	c = b;
+	c.setRawBits(8);
 
 	std::cout << a.getRawBits() << std::endl;
 	std::cout << b.getRawBits() << std::endl;
